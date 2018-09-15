@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+
+  {%- if site.areas.size > 0 -%}
+    <h2 class="post-list-heading">Areas</h2>
+
+    <ul class="post-list">
+      {%- for area in site.areas -%}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ area.url | relative_url }}">
+						<!--{{ area.number | escape }} - {{ area.title | escape }} -->
+						{{ area.number | append: " - " | append: area.title }}
+            
+          </a>
+        </h3>
+        {%- if area.description -%}
+          {{ area.description }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%}
+
+</div>
