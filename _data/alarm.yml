@@ -1,0 +1,13 @@
+- code: A
+  area: "1"
+  info:
+    - "goblin warlord"
+    - "12"
+    - ""
+
+- code: B
+  area: "2"
+  info:
+    - "3 goblins, bugbear"
+    - "13"
+    - "15gp"

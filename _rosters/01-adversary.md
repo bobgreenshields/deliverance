@@ -1,10 +1,10 @@
 ---
 layout: roster
-title: Adversary
-description: "Adversaries and monsters"
+title: Normal
+description: "Normal situation"
+data_file: "adversary"
 data_titles:
-  - Code
   - Adversaries
-  - Area
+  - "PP"
   - Notes
 ---
