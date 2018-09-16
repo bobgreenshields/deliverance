@@ -29,6 +29,12 @@ collections:
   rosters:
     output: true
 
+defaults:
+  - scope:
+      path: "assets/player_images"
+    values:
+      player_image: true
+
 # Build settings
 markdown: kramdown
 theme: minima

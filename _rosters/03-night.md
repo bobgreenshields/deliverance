@@ -1,8 +1,8 @@
 ---
 layout: roster
-title: Normal
-description: "Normal situation"
-data_file: "adversary"
+title: Night
+description: "Nightime"
+data_file: "night"
 data_titles:
   - Adversaries
   - "PP"

@@ -3,6 +3,10 @@ layout: area
 title: "Goblin chief rooms"
 number: "2"
 description: "Quarters of the goblin chieftain"
+player_images:
+  - goblin-warlord
+leads_to:
+  - "1"
 categories: area
 ---
 

@@ -34,10 +34,10 @@ layout: default
 		{%- endfor -%}
 
 
-  {%- if roster_list.size > 0 -%}
 		<h4>Adversaries</h4>
-	{%- for roster in roster_list -%}
+	{%- for roster in site.rosters -%}
 	<a href="{{ roster.url | relative_url }}" title="{{ roster.title }}">{{roster.description}}</a>
+	{%- if roster_list contains roster -%}
 		<table>
 			<tr>
 			<th>Code</th>
@@ -56,12 +56,11 @@ layout: default
 			</tr>
 		{%- endfor -%}
 		</table>
+	{%- else -%}
+	<p>None</p>
+	{%- endif -%}
 	{%- endfor -%}
 
-	{%- else -%}
-	<h3>No adversaries in rosters</h3>
-
-	{%- endif -%}
   {%- if page.leads_to -%}
   <h4>Leads to</h4>
 		{%- for area_number in page.leads_to -%}
@@ -78,6 +77,8 @@ layout: default
 				{%- endfor -%}
 		{%- endfor -%}
   {%- endif -%}
+
+	{%- include player_images.html -%}
 
   </div>
 
