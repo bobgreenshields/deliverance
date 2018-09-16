@@ -11,18 +11,58 @@ layout: default
 
   <div class="post-content">
 
-{% assign map_path = page.number | prepend: "/assets/area_maps/" | append: ".jpg" %}
+{%- assign map_path = page.number | prepend: "/assets/area_maps/" | append: ".jpg" -%}
 
-{% for map in site.static_files %}
-    {% if map.path == map_path %}
+{%- for map in site.static_files -%}
+    {%- if map.path == map_path -%}
 		<img src={{ map_path }} class="area_map" alt=""/>
-    {% endif %}
-{% endfor %}
+    {%- endif -%}
+{%- endfor -%}
 
     {{ content }}
 
+
+		{%- assign roster_list = site.emptyarray -%}
+		{%- for roster in site.rosters -%}
+			{%- assign area_list = site.emptyarray -%}
+			{%- for adversary in site.data[roster.data_file] -%}
+				{%- assign area_list = area_list | push: adversary.area -%}
+			{%- endfor -%}
+			{%- if area_list contains page.number -%}
+				{%- assign roster_list = roster_list | push: roster -%}
+			{%- endif -%}
+		{%- endfor -%}
+
+
+  {%- if roster_list.size > 0 -%}
+		<h4>Adversaries</h4>
+	{%- for roster in roster_list -%}
+	<a href="{{ roster.url | relative_url }}" title="{{ roster.title }}">{{roster.description}}</a>
+		<table>
+			<tr>
+			<th>Code</th>
+			{%- for title in roster.data_titles -%}
+				<th>{{ title }}</th>
+			{%- endfor -%}
+			</tr>
+			{%-for adversary in site.data[roster.data_file]-%}
+				{%- if adversary.area == page.number -%}
+				<tr>
+				<td>{{ adversary.code }}</td>
+				{%-for data_item in adversary.info-%}
+				<td>{{ data_item }}</td>
+			{%- endfor -%}
+			{%- endif -%}
+			</tr>
+		{%- endfor -%}
+		</table>
+	{%- endfor -%}
+
+	{%- else -%}
+	<h3>No adversaries in rosters</h3>
+
+	{%- endif -%}
   {%- if page.leads_to -%}
-  <br></br>
   <h4>Leads to</h4>
 		{%- for area_number in page.leads_to -%}
 				{%- for area in site.areas -%}
@@ -35,8 +75,8 @@ layout: default
 							</li>
 						{%- endif -%}
 					</ul>
-				{%- endfor %}
-		{%- endfor %}
+				{%- endfor -%}
+		{%- endfor -%}
   {%- endif -%}
 
   </div>

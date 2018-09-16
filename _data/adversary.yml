@@ -2,13 +2,13 @@
   area: "1"
   info:
     - "2 goblins, 1 goblin archer"
-    - "12"
-    - "drunk"
+    - "12-5"
+    - "chatting"
 
 - code: B
   area: "2"
   info:
-    - "3 goblins"
+    - "goblin warlord"
     - "12"
     - ""
 

@@ -11,52 +11,44 @@ layout: default
 
   <div class="post-content">
 
-		{% if page.description %}
+		{%- if page.description -%}
 			<p>{{ page.description }}</p>
-		{% endif %}
+		{%- endif -%}
 		
-		{% assign area_list = site.emptyarray %}
+		{%- assign area_list = site.emptyarray -%}
 
-		{% for area in site.areas %}
-		{% assign area_list = area_list | push: area.number %}
-		{% endfor %}
+		{%- for area in site.areas -%}
+			{%- assign area_list = area_list | push: area.number -%}
+		{%- endfor -%}
 
 	<table>
 		<tr>
 		<th>Code</th>
 		<th>Area</th>
-		{% for title in page.data_titles %}
-		<th>{{ title }}</th>
-		{% endfor %}
+		{%- for title in page.data_titles -%}
+			<th>{{ title }}</th>
+		{%- endfor -%}
 		</tr>
-	{% for adversary in site.data[page.data_file] %}
-		<tr>
+		{%- for adversary in site.data[page.data_file] -%}
+			<tr>
 			<td>{{ adversary.code }}</td>
-			{% if area_list contains adversary.area %}
-				{% for area in site.areas %}
-					{% if area.number == adversary.area %}
-					<td><a href="{{ area.url | relative_url }}" title="{{ area.title }}">{{adversary.area}}</a></td>
-					{% endif %}
-				{% endfor %}
-
-			{% else %}
-			<td>{{ adversary.area }}</td>
-			{% endif %}
-			{% for data_item in adversary.info %}
-			<td>{{ data_item }}</td>
-			{% endfor %}
-		</tr>
-	{% endfor %}
-
-
-
-
+				{%- if area_list contains adversary.area -%}
+					{%- for area in site.areas -%}
+						{%- if area.number == adversary.area -%}
+							<td><a href="{{ area.url | relative_url }}" title="{{ area.title }}">{{adversary.area}}</a></td>
+						{%- endif -%}
+					{%- endfor -%}
+				{%- else -%}
+					<td>{{ adversary.area }}</td>
+				{%- endif -%}
+				{%- for data_item in adversary.info -%}
+					<td>{{ data_item }}</td>
+				{%- endfor -%}
+			</tr>
+		{%- endfor -%}
 	</table>
 
-
-
     {{ content }}
-
 
   </div>
 
