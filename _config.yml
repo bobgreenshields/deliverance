@@ -42,6 +42,11 @@ defaults:
       player_image: true
   -
     scope:
+      path: "assets/player_thumbs"
+    values:
+      player_thumb: true
+  -
+    scope:
       path: "assets/char_sheets"
     values:
       char_sheet: true

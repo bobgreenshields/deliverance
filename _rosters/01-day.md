@@ -6,6 +6,7 @@ data_file: "day"
 player_images:
   - goblin-warlord
   - owlbear
+  - bugbear
   - lich
 data_titles:
   - Adversaries

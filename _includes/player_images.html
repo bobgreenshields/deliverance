@@ -1,9 +1,26 @@
 	{%- if page.player_images -%}
 		<div class="row">
-		{%- for image_name in page.player_images -%}
-			<div class="column">
-			<a href="/assets/player_images/{{ image_name }}.jpg"><img src="/assets/player_images/{{ image_name }}.th.jpg" alt="{{ image_name }}" title="{{ image_name }}"></a>
-			</div>
-		{%- endfor -%}
+			{%- for image_name in page.player_images -%}
+				<div class="column">
+			
+					{%- assign player_images = site.static_files | where: "player_image", true | where: "basename", image_name -%}
+					{%- assign player_thumbs = site.static_files | where: "player_thumb", true | where: "basename", image_name -%}
+
+					{%- if player_images.size > 0 -%}
+
+						{%- if player_thumbs.size > 0 -%}
+							<a href="{{ player_images.first.path | relative_url }}"><img src="{{ player_thumbs.first.path | relative_url }}" alt="{{ image_name }}" title="{{ image_name }}"></a>
+						{%- else -%}
+							<a href="{{ player_images.first.path | relative_url }}">{{ image_name }}</a>
+						{%- endif -%}
+
+					{%- else -%}
+						<p>Could not find an image called {{ image_name }}</p>
+					{%- endif -%}
+
+				</div>
+			{%- endfor -%}
 		</div>
+
 	{%- endif -%}
+

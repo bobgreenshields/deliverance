@@ -5,6 +5,8 @@ number: "2"
 description: "Quarters of the goblin chieftain"
 player_images:
   - goblin-warlord
+  - bugbear
+  - owlbear
 leads_to:
   - "1"
 categories: area
