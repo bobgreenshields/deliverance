@@ -20,44 +20,34 @@ layout: default
     {{ content }}
 
 
-		{%- assign roster_list = site.empty_array -%}
-		{%- for roster in site.rosters -%}
-			{%- assign area_list = site.empty_array -%}
-			{%- for adversary in site.data[roster.data_file] -%}
-				{%- assign area_list = area_list | push: adversary.area -%}
-			{%- endfor -%}
-			{%- if area_list contains page.number -%}
-				{%- assign roster_list = roster_list | push: roster -%}
-			{%- endif -%}
-		{%- endfor -%}
-
-
 		<h4>Adversaries</h4>
-	{%- for roster in site.rosters -%}
-	<a href="{{ roster.url | relative_url }}" title="{{ roster.title }}">{{roster.description}}</a>
-	{%- if roster_list contains roster -%}
-		<table>
-			<tr>
-			<th>Group</th>
-			{%- for title in roster.data_titles -%}
-				<th>{{ title }}</th>
-			{%- endfor -%}
-			</tr>
-			{%-for adversary in site.data[roster.data_file]-%}
-				{%- if adversary.area == page.number -%}
-				<tr>
-				<td>{{ adversary.group }}</td>
-				{%-for data_item in adversary.info-%}
-				<td>{{ data_item }}</td>
-			{%- endfor -%}
+		{%- for roster in site.rosters -%}
+			<a href="{{ roster.url | relative_url }}" title="{{ roster.title }}">{{roster.description}}</a>
+			{%- assign adversaries  = site.data[roster.data_file] | where: "area", page.number -%}
+			{%- if adversaries.size > 0 -%}
+				<table>
+					<tr>
+					<th>Group</th>
+					{%- for title in roster.data_titles -%}
+						<th>{{ title }}</th>
+					{%- endfor -%}
+					</tr>
+					{%-for adversary in adversaries -%}
+						{%- if adversary.area == page.number -%}
+						<tr>
+						<td>{{ adversary.group }}</td>
+						{%-for data_item in adversary.info-%}
+						<td>{{ data_item }}</td>
+					{%- endfor -%}
+					{%- endif -%}
+					</tr>
+				{%- endfor -%}
+				</table>
+			{%- else -%}
+				<p>None</p>
 			{%- endif -%}
-			</tr>
 		{%- endfor -%}
-		</table>
-	{%- else -%}
-	<p>None</p>
-	{%- endif -%}
-	{%- endfor -%}
+
 
   {%- if page.leads_to -%}
   <h4>Leads to</h4>
