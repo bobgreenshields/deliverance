@@ -8,3 +8,9 @@ data_titles:
   - "PP"
   - Notes
 ---
+**Wandering Monsters**
+
+1d6 | Group | Monsters| Notes
+:-:|:-:|:-:|:-:
+1-3 | C | 3 goblins | swapping guard
+4-6 | A | 2 goblins, 1 goblin archer | swapping guard

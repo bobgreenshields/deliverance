@@ -8,3 +8,8 @@ data_titles:
   - "PP"
   - Notes
 ---
+**Wandering Monsters**
+
+No Roll | Group | Monsters| Notes
+:-:|:-:|:-:|:-:
+No roll | C | 1 goblin | 1 goblin from this group patrolling
