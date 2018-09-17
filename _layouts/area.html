@@ -52,17 +52,16 @@ layout: default
   {%- if page.leads_to -%}
   <h4>Leads to</h4>
 		{%- for area_number in page.leads_to -%}
-				{%- for area in site.areas -%}
-					<ul>
-						{%- if area.number == area_number -%}
-							<li>
-								<a  href="{{ area.url | relative_url }}">
-									{{ area.number | append: " - " | append: area.title }}
-								</a>
-							</li>
-						{%- endif -%}
-					</ul>
+			{%- assign areas  = site.areas | where: "number", area_number -%}
+			<ul>
+				{%- for area in areas -%}
+					<li>
+						<a  href="{{ area.url | relative_url }}">
+							{{ area.number | append: " - " | append: area.title }}
+						</a>
+					</li>
 				{%- endfor -%}
+			</ul>
 		{%- endfor -%}
   {%- endif -%}
 
