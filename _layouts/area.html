@@ -11,13 +11,11 @@ layout: default
 
   <div class="post-content">
 
-{%- assign map_path = page.number | prepend: "/assets/area_maps/" | append: ".jpg" -%}
 
-{%- for map in site.static_files -%}
-    {%- if map.path == map_path -%}
-		<img src={{ map_path }} class="area_map" alt=""/>
-    {%- endif -%}
-{%- endfor -%}
+	{%- assign area_maps  = site.static_files | where: "area_map", true | where: "basename", page.number -%}
+	{%- if area_maps.size > 0 -%}
+			<img src={{ area_maps.first.path | relative_url }} class="area_map" alt=""/>
+	{%- endif -%}
 
     {{ content }}
 

@@ -32,6 +32,11 @@ collections:
 defaults:
   -
     scope:
+      path: "assets/area_maps"
+    values:
+      area_map: true
+  -
+    scope:
       path: "assets/player_images"
     values:
       player_image: true
