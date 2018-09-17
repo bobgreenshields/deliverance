@@ -46,6 +46,18 @@ rows:
       - "+2"
       - "+0"
   -
+    category: Dex
+    values:
+      - "+2"
+      - "+2"
+      - "+0"
+  -
+    category: Wis
+    values:
+      - "+1"
+      - "+2"
+      - "+3 (+5)"
+  -
     category: "Spell Atk. Mod"
     values:
       - "+1"
