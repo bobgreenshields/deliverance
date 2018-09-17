@@ -22,9 +22,9 @@ layout: default
     {{ content }}
 
 
-		{%- assign roster_list = site.emptyarray -%}
+		{%- assign roster_list = site.empty_array -%}
 		{%- for roster in site.rosters -%}
-			{%- assign area_list = site.emptyarray -%}
+			{%- assign area_list = site.empty_array -%}
 			{%- for adversary in site.data[roster.data_file] -%}
 				{%- assign area_list = area_list | push: adversary.area -%}
 			{%- endfor -%}

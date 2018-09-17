@@ -15,7 +15,7 @@ layout: default
 			<p>{{ page.description }}</p>
 		{%- endif -%}
 		
-		{%- assign area_list = site.emptyarray -%}
+		{%- assign area_list = site.empty_array -%}
 
 		{%- for area in site.areas -%}
 			{%- assign area_list = area_list | push: area.number -%}
