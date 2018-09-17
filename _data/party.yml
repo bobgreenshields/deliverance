@@ -1,0 +1,53 @@
+titles:
+  - Elrond
+  - Boromir
+  - Gandalf
+rows:
+  -
+    category: Player
+    values:
+      - Col
+      - Bryn
+      - Luca
+  -
+    category: Initiative
+    values:
+      - "+3"
+      - "+4"
+      - "+2"
+  -
+    category: AC
+    values:
+      - "12"
+      - "15"
+      - "11"
+  -
+    category: Prof
+    values:
+      - "+2"
+      - "+2"
+      - "+2"
+  -
+    category: PP
+    values:
+      - "15"
+      - "12"
+      - "11"
+  -
+    category: "Stealth (Dex)"
+    values:
+      - "+6"
+      - "+2"
+      - "+0"
+  -
+    category: Str
+    values:
+      - "+3 (+5)"
+      - "+2"
+      - "+0"
+  -
+    category: "Spell Atk. Mod"
+    values:
+      - "+1"
+      - "-"
+      - "+2"

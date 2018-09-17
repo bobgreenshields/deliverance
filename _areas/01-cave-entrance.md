@@ -9,7 +9,7 @@ leads_to:
   - "3"
 ---
 
-The cave mouth curves back into the darkness where an 8ft tall wooden pallisade has been constructed.  There is a gate at the east end secured by a sliding log.
+The cave mouth curves back into the darkness where an 8ft tall wooden pallisade has been constructed.  There is a gate at the east end secured by a sliding bar.
 
 **Spot (DC 12)**: 2 goblins on duty guarding the entrance.
 

@@ -1,21 +1,21 @@
-- code: A
+- group: A
   area: "1"
   info:
     - "2 goblins, 1 goblin archer"
     - "12-5"
     - "chatting"
 
-- code: B
+- group: B
   area: "2"
   info:
     - "goblin warlord"
     - "14"
     - ""
 
-- code: C
+- group: C
   area: "Outside the cave"
   info:
     - "3 goblins"
     - "12"
-    - "Fighting over a deer carcas"
+    - "Fighting over a deer carcass"
 

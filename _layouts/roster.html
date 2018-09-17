@@ -23,15 +23,14 @@ layout: default
 
 	<table>
 		<tr>
-		<th>Code</th>
 		<th>Area</th>
+		<th>Group</th>
 		{%- for title in page.data_titles -%}
 			<th>{{ title }}</th>
 		{%- endfor -%}
 		</tr>
 		{%- for adversary in site.data[page.data_file] -%}
 			<tr>
-			<td>{{ adversary.code }}</td>
 				{%- if area_list contains adversary.area -%}
 					{%- for area in site.areas -%}
 						{%- if area.number == adversary.area -%}
@@ -41,6 +40,7 @@ layout: default
 				{%- else -%}
 					<td>{{ adversary.area }}</td>
 				{%- endif -%}
+			<td>{{ adversary.group }}</td>
 				{%- for data_item in adversary.info -%}
 					<td>{{ data_item }}</td>
 				{%- endfor -%}

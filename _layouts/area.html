@@ -40,7 +40,7 @@ layout: default
 	{%- if roster_list contains roster -%}
 		<table>
 			<tr>
-			<th>Code</th>
+			<th>Group</th>
 			{%- for title in roster.data_titles -%}
 				<th>{{ title }}</th>
 			{%- endfor -%}
@@ -48,7 +48,7 @@ layout: default
 			{%-for adversary in site.data[roster.data_file]-%}
 				{%- if adversary.area == page.number -%}
 				<tr>
-				<td>{{ adversary.code }}</td>
+				<td>{{ adversary.group }}</td>
 				{%-for data_item in adversary.info-%}
 				<td>{{ data_item }}</td>
 			{%- endfor -%}

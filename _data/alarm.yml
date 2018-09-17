@@ -1,18 +1,18 @@
-- code: A
+- group: A
   area: "1"
   info:
     - "2 goblins, 1 goblin archer"
     - "12"
     - "watching  carefully"
 
-- code: B
+- group: B
   area: "1"
   info:
     - "goblin warlord"
     - "14"
     - ""
 
-- code: C
+- group: C
   area: "1"
   info:
     - "3 goblins"
