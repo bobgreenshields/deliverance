@@ -7,6 +7,7 @@ categories: area
 leads_to:
   - "2"
   - "3"
+  - "5"
 ---
 
 The cave mouth curves back into the darkness where an 8ft tall wooden pallisade has been constructed.  There is a gate at the east end secured by a sliding bar.
