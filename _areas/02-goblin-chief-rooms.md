@@ -6,6 +6,7 @@ description: "Quarters of the goblin chieftain"
 player_images:
   - goblin-warlord
   - bugbear
+  - orc
   - owlbear
 leads_to:
   - "1"
