@@ -54,13 +54,16 @@ layout: default
 		{%- for area_number in page.leads_to -%}
 			{%- assign areas  = site.areas | where: "number", area_number -%}
 			<ul>
-				{%- for area in areas -%}
-					<li>
-						<a  href="{{ area.url | relative_url }}">
-							{{ area.number | append: " - " | append: area.title }}
-						</a>
-					</li>
-				{%- endfor -%}
+						{%- if areas.size > 0 -%}
+						{%- assign area = areas.first -%}
+							<li>
+								<a  href="{{ area.url | relative_url }}">
+									{{ area.number | append: " - " | append: area.title }}
+								</a>
+							</li>
+						{%- else -%}
+							<li class="warning">{{ area_number }} - cannot find area file</li>
+						{%- endif -%}
 			</ul>
 		{%- endfor -%}
   {%- endif -%}
