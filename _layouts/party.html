@@ -16,12 +16,12 @@ layout: default
 		<tr>
 		<th></th>
 			{%- assign char_sheets = site.static_files | where: "char_sheet", true -%}
-			{%- for title in site.data.party.titles -%}
-				{%- assign target_sheets = char_sheets | where: "basename", title -%}
+			{%- for name in site.data.party.names -%}
+				{%- assign target_sheets = char_sheets | where: "basename", name -%}
 				{%- if target_sheets.size > 0 -%}
-					<th><a href="{{ target_sheets.first.path | relative_url }}" >{{ title }}</a></th>	
+					<th><a href="{{ target_sheets.first.path | relative_url }}" >{{ name }}</a></th>	
 				{%- else -%}
-					<th>{{ title }}</th>
+					<th>{{ name }}</th>
 				{%- endif -%}
 			{%- endfor -%}
 		</tr>
