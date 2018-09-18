@@ -38,28 +38,18 @@ task :area do
 			default: "")
 	end
 
-	puts area.filename
-	puts area.to_yaml
-	puts Rake.original_dir
-
 	areas_dir = Pathname.new(Rake.original_dir) + "_areas"
-	puts areas_dir
 	unless areas_dir.directory?
 		puts "FAILED: cannot find the _areas directory"
 		exit
 	end
 
 	file_path = areas_dir + area.filename
-	puts file_path
 	if file_path.exist?
 		puts "FAILED: the area file #{file_path} already exists"
 		exit
 	else
 		file_path.write(area.to_yaml)
 		puts "SUCCESS: the area file #{file_path.basename} has been made"
-
 	end
-
-
-
 end
