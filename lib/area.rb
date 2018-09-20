@@ -20,7 +20,7 @@ class Area
 	end
 
 	def sanitise(value)
-		value.to_s.strip.downcase.gsub(/\s+/,"-")
+		value.to_s.strip.downcase.gsub(/[^a-z0-9\.]+/,"-").gsub(/-\./, ".")
 	end
 
 	def add_leads_to(leads_to)
