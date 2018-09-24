@@ -17,7 +17,7 @@ title: Deliverance from the Depths
 author: Bob Greenshields
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A deperate delve into an ancient cave system to rescue captives of a goblin warband
+  A desperate delve into an ancient cave system to rescue captives of a goblin warband
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
