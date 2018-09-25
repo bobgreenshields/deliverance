@@ -11,25 +11,31 @@ rows:
   - Bryn
   - Luca
   - Nicky
-- category: AC
-  values:
-  - '12'
-  - '15'
-  - '11'
-  - '17'
 - category: PP
   values:
   - '15'
   - '12'
   - '11'
   - '11'
-- category: Str
+- category: AC
+  values:
+  - '12'
+  - '15'
+  - '11'
+  - '17'
+- category: Init
+  values:
+  - "+2"
+  - "+2"
+  - "+0"
+  - "+1"
+- category: Str / Athl / Sv
   values:
   - "+3 (+5)"
   - "+2"
   - "+0"
   - "+2 (+4)"
-- category: Dex/Init
+- category: Dex / Stea / Sv
   values:
   - "+2"
   - "+2"
@@ -41,13 +47,13 @@ rows:
   - "+2"
   - "+0"
   - "+1"
-- category: Int
+- category: Int / Inv / Sv
   values:
   - "+2"
   - "+2"
   - "+0"
   - "+1"
-- category: Wis
+- category: Wis / Perc / Sv
   values:
   - "+1"
   - "+2"
@@ -71,12 +77,6 @@ rows:
   - "30"
   - "30"
   - "30"
-- category: Stealth
-  values:
-  - "+6"
-  - "+2"
-  - "+0"
-  - "+1"
 - category: Spell DC
   values:
   - "12"
