@@ -12,9 +12,10 @@ leads_to:
 
 The cave mouth curves back into the darkness where an 8ft tall wooden pallisade has been constructed.  There is a gate at the east end secured by a sliding bar.
 
-[**Spot (DC 12)**]({{ site.baseurl }}{% link party.md %}): 2 goblins on duty guarding the entrance.
+#### Goblins on watch
+
+The 2 goblins on watch can be spotted with a [**DC 12 Wis (Perception) check**]({{ site.baseurl }}{% link party.md %}).
 
 * unless the alarm has been raised the goblins will not be alert
-* goblin **passive perception 12**, if alarm has not been raised use disadvantage -5
-
-
+* to approach unseen make a [**Dex (Stealth) check**]({{ site.baseurl }}{% link party.md %}) against the goblins' PP.
+* goblin **passive perception 9**, if alarm has not been raised use disadvantage -5
