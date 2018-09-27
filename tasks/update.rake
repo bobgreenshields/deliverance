@@ -1,6 +1,3 @@
-#require 'pathname'
-#require 'tty-prompt'
-#require 'yaml'
 require_relative '../lib/shell_cmd'
 require_relative '../lib/utils'
 
