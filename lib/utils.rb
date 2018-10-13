@@ -1,3 +1,7 @@
+require 'pathname'
+require_relative 'constants'
+require_relative 'dir_explorer'
+
 module Utils
 	module_function
 
@@ -10,4 +14,15 @@ module Utils
 			puts response
 			exit 100
 	end
+
+	def init_dir
+		dirs = ->(dir) do
+			target = ROOT_DIR + dir.relative_path_from(DEMO_DIR)
+			target.mkdir unless dir.exist?
+		end
+
+		exp = DirExplorer.new(on_dir: dirs)
+		exp.call(DEMO_DIR)
+	end
+
 end
