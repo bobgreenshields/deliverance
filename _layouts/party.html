@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="post">
+
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title}}</h1>
+  </header>
+
+
+  <div class="post-content">
+
+
+	<table>
+		<tr>
+		<th></th>
+			{%- assign char_sheets = site.static_files | where: "char_sheet", true -%}
+			{%- for name in site.data.party.names -%}
+				{%- assign target_sheets = char_sheets | where: "basename", name -%}
+				{%- if target_sheets.size > 0 -%}
+					<th><a href="{{ target_sheets.first.path | relative_url }}" >{{ name }}</a></th>	
+				{%- else -%}
+					<th>{{ name }}</th>
+				{%- endif -%}
+			{%- endfor -%}
+		</tr>
+			{%- for row in site.data.party.rows -%}
+				<tr>
+					<td><strong>{{ row.category }}</strong></td>
+				{%- for value in row.values -%}
+					<td>{{ value }}</td>
+				{%- endfor -%}
+			</tr>
+		{%- endfor -%}
+	</table>
+
+    {{ content }}
+
+  </div>
+
+</article>

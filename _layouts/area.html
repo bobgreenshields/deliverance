@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<article class="post">
+
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.number | append: " " | append: page.title }}</h1>
+  </header>
+
+
+  <div class="post-content">
+
+
+	{%- assign area_maps  = site.static_files | where: "area_map", true | where: "basename", page.number -%}
+	{%- if area_maps.size > 0 -%}
+			<img src={{ area_maps.first.path | relative_url }} class="area_map" alt=""/>
+	{%- endif -%}
+
+    {{ content }}
+
+
+		<h4>Adversaries</h4>
+		{%- for roster in site.rosters -%}
+			<a href="{{ roster.url | relative_url }}" title="{{ roster.title }}">{{roster.description}}</a>
+			{%- assign adversaries  = site.data[roster.data_file] | where: "area", page.number -%}
+			{%- if adversaries.size > 0 -%}
+				<table>
+					<tr>
+					<th>Group</th>
+					{%- for title in roster.data_titles -%}
+						<th>{{ title }}</th>
+					{%- endfor -%}
+					</tr>
+					{%-for adversary in adversaries -%}
+						{%- if adversary.area == page.number -%}
+						<tr>
+						<td>{{ adversary.group }}</td>
+						{%-for data_item in adversary.info-%}
+						<td>{{ data_item }}</td>
+					{%- endfor -%}
+					{%- endif -%}
+					</tr>
+				{%- endfor -%}
+				</table>
+			{%- else -%}
+				<p>None</p>
+			{%- endif -%}
+		{%- endfor -%}
+
+
+  {%- if page.leads_to -%}
+  <h4>Leads to</h4>
+		{%- for area_number in page.leads_to -%}
+			{%- assign areas  = site.areas | where: "number", area_number -%}
+			<ul>
+						{%- if areas.size > 0 -%}
+						{%- assign area = areas.first -%}
+							<li>
+								<a  href="{{ area.url | relative_url }}">
+									{{ area.number | append: " - " | append: area.title }}
+								</a>
+							</li>
+						{%- else -%}
+							<li class="warning">{{ area_number }} - cannot find area file</li>
+						{%- endif -%}
+			</ul>
+		{%- endfor -%}
+  {%- endif -%}
+
+	{%- include player_images.html -%}
+
+  </div>
+
+</article>
