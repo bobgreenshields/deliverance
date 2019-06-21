@@ -1,0 +1,91 @@
+---
+names:
+- Elrond
+- Boromir
+- Gandalf
+- Gimli
+rows:
+- category: Player
+  values:
+  - Col
+  - Bryn
+  - Luca
+  - Nicky
+- category: AC
+  values:
+  - '12'
+  - '15'
+  - '11'
+  - '17'
+- category: PP
+  values:
+  - '15'
+  - '12'
+  - '11'
+  - '11'
+- category: Str
+  values:
+  - "+3 (+5)"
+  - "+2"
+  - "+0"
+  - "+2 (+4)"
+- category: Dex/Init
+  values:
+  - "+2"
+  - "+2"
+  - "+0"
+  - "+1"
+- category: Con
+  values:
+  - "+2"
+  - "+2"
+  - "+0"
+  - "+1"
+- category: Int
+  values:
+  - "+2"
+  - "+2"
+  - "+0"
+  - "+1"
+- category: Wis
+  values:
+  - "+1"
+  - "+2"
+  - "+3 (+5)"
+  - "+0"
+- category: Cha
+  values:
+  - "+1"
+  - "+2"
+  - "+3 (+5)"
+  - "+0"
+- category: Prof
+  values:
+  - "+2"
+  - "+2"
+  - "+2"
+  - "+2"
+- category: Move
+  values:
+  - "30"
+  - "30"
+  - "30"
+  - "30"
+- category: Stealth
+  values:
+  - "+6"
+  - "+2"
+  - "+0"
+  - "+1"
+- category: Spell DC
+  values:
+  - "12"
+  - "-"
+  - "14"
+  - "-"
+- category: Spell Atk
+  values:
+  - "+1"
+  - "-"
+  - "+2"
+  - "-"
