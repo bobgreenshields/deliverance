@@ -1,28 +1,64 @@
 ---
 layout: default
 ---
+
 <article class="post">
 
 
   <header class="post-header">
     <h1 class="post-title">{{ page.number | append: " " | append: page.title }}</h1>
+  {%- if page.leads_to -%}
+	<div>
+		<p>Leads to 
+		{%- for area_number in page.leads_to -%}
+			{%- assign areas  = site.areas | where: "number", area_number -%}
+						{%- if areas.size > 0 -%}
+						{%- assign area = areas.first -%}
+								<a  href="{{ area.url | relative_url }}">
+									{{ area.number | append: " - " | append: area.title }}
+								</a>
+						{%- else -%}
+							<span class="warning">{{ area_number }} - cannot find area file</span>
+						{%- endif -%}
+		{%- endfor -%}
+		</p>
+	</div>
+  {%- endif -%}
   </header>
 
 
   <div class="post-content">
 
+		<div class="gridwrapper">
+
 
 	{%- assign area_maps  = site.static_files | where: "area_map", true | where: "basename", page.number -%}
 	{%- if area_maps.size > 0 -%}
+	<div>
 			<img src={{ area_maps.first.path | relative_url }} class="area_map" alt=""/>
+	</div>
 	{%- endif -%}
-
+<div>
     {{ content }}
+	
+</div>
 
-
+		{%  include area_items.html %}
+<div>
+	
 		<h4>Adversaries</h4>
+		<div id="tabs">
+		<ul>
+			{%- for roster in site.rosters -%}
+			<!-- <li><a href="#{{ roster.title }}">{{ roster.description }}</a></li> -->
+			<li><a href="#{{ roster.title }}">{{ roster.title }}</a></li>
+			{%- endfor -%}
+		</ul>
+
 		{%- for roster in site.rosters -%}
-			<a href="{{ roster.url | relative_url }}" title="{{ roster.title }}">{{roster.description}}</a>
+		<div id="{{ roster.title }}">
+			
+			<a href="{{ roster.url | relative_url }}" title="{{ roster.title }}">{{ roster.description }}</a>
 			{%- assign adversaries  = site.data[roster.data_file] | where: "area", page.number -%}
 			{%- if adversaries.size > 0 -%}
 				<table>
@@ -46,27 +82,13 @@ layout: default
 			{%- else -%}
 				<p>None</p>
 			{%- endif -%}
+		</div>
 		{%- endfor -%}
+		</div>
 
+</div>
 
-  {%- if page.leads_to -%}
-  <h4>Leads to</h4>
-		{%- for area_number in page.leads_to -%}
-			{%- assign areas  = site.areas | where: "number", area_number -%}
-			<ul>
-						{%- if areas.size > 0 -%}
-						{%- assign area = areas.first -%}
-							<li>
-								<a  href="{{ area.url | relative_url }}">
-									{{ area.number | append: " - " | append: area.title }}
-								</a>
-							</li>
-						{%- else -%}
-							<li class="warning">{{ area_number }} - cannot find area file</li>
-						{%- endif -%}
-			</ul>
-		{%- endfor -%}
-  {%- endif -%}
+		</div>
 
 	{%- include player_images.html -%}
 

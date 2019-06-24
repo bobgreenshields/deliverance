@@ -1,0 +1,10 @@
+{% if page.area_items %}
+	<div id="accordion">
+		{% for area_item in site.data[page.area_items] %}
+		<h3>{{ area_item.title }}</h3>
+		<div>
+			<p>{{ area_item.desc | markdownify }}</p>
+		</div>
+		{% endfor %}
+	</div>
+{% endif %}

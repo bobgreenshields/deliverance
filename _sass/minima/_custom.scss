@@ -16,3 +16,53 @@
 .warning {
 	color: red;
 }
+
+.area_item {
+  padding: 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.area_item_title {
+  background-color: DarkGray;
+  color: #444;
+  padding: 10px;
+  width: 100%;
+	border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.area_item_desc {
+	background-color: #f1f1f1;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  color: black;
+}
+
+.gridwrapper {
+	width: 100%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+	grid-column-gap: 16px;
+	grid-row-gap: 16px;
+}
+
+
+.leads_to {
+	align: right;
+	margin-right: 10px;
+}
+
+.post-header {
+	display: flex;
+  justify-content: space-between;
+}
+
+
+
