@@ -26,3 +26,10 @@
     - 10
     - Cocooned at C
 
+- group: E
+  area: "4"
+  info:
+    - "2 goblins, 2 goblin archers"
+    - "12-5"
+    - "Chatting around fire, not alert"
+

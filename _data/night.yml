@@ -29,9 +29,9 @@
 - group: E
   area: "4"
   info:
-    - "2 goblins"
+    - "2 goblins, 2 goblin archers"
     - "12-5"
-    - "Awake"
+    - "2 awake, 2 asleep"
 
 - group: G
   area: "Warlords caves"
