@@ -9,9 +9,10 @@
 
 - title: "B: Spider eggs"
   desc: Just like A
+
 - title: "C: Cocooned bodies"
   desc: |-
-    Not visible from the entrance but there are 3 web cocoons suspended from the web at A.
+    Not visible from the entrance but there are 3 web cocoons suspended from the web at C.
 
     **DC 15 Int (Investigation) check** they contain 2 man sized and 1 smaller than man sized humanoids
 
@@ -33,4 +34,7 @@
 
     25 sp
     3 gp
-    Arrows of pushing and pulling - 10 push & 12 pulling
+    Potion of fire breathing.
+
+- title: "D: Blocked off opening"
+  desc: The passage slopes down to a hole near the floor.  It is blocked by a wooden lattice that has been jammed in place **DC 15 Str check 10 Effort**.

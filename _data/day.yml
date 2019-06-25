@@ -1,7 +1,7 @@
 - group: A
   area: "1"
   info:
-    - "2 goblins, 1 goblin archer"
+    - "2 goblins, 2 goblin archer"
     - "12-5"
     - "chatting"
 
@@ -20,9 +20,9 @@
     - "Still inside their eggs"
 
 - group: D
-  area: "Outside the cave"
+  area: "2"
   info:
-    - "3 goblins"
-    - "12"
-    - "Fighting over a deer carcass"
+    - "ghoul"
+    - 10
+    - Cocooned at C
 

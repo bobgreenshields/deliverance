@@ -5,7 +5,6 @@ number: "1"
 description: "Main entrance to the cave system"
 categories: area
 leads_to:
-  - "2"
   - "3"
 ---
 

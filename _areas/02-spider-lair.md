@@ -7,8 +7,8 @@ area_items: area-02-items
 player_images:
   - giant-spider
   - spider-swarm
+  - ghoul
 leads_to:
-  - "1"
   - "3"
 categories: area
 ---

@@ -1,11 +1,15 @@
 ---
 layout: area
-title: "Minion cave"
+title: "Connecting tunnel"
 number: "3"
-description: "Cave where goblins live"
+description: "Tunnel from entrance to bridge"
 leads_to:
   - "1"
+  - "2"
+  - "4"
 categories: area
 ---
 
-This is the cave where the goblins usually sleep
+A tunnel connecting the entrance to the bridge.
+
+An opening 15 ft. up on one wall connects to the spider lair.  [**DC 15 Dex (Climb) check**]({{ site.baseurl }}{% link party.md %}) to gain the opening.

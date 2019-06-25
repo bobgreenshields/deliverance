@@ -1,9 +1,9 @@
 - group: A
   area: "1"
   info:
-    - "2 goblins, 1 goblin archer"
+    - "2 goblins, 2 goblin archer"
     - "12-5"
-    - "chatting"
+    - "2 awake, 2 asleep"
 
 - group: B
   area: "2"
@@ -19,17 +19,23 @@
     - "12"
     - "Still inside their eggs"
 
+- group: D
+  area: "2"
+  info:
+    - "ghoul"
+    - 10
+    - Cocooned at C
+
 - group: E
+  area: "4"
+  info:
+    - "2 goblins"
+    - "12-5"
+    - "Awake"
+
+- group: G
   area: "Warlords caves"
   info:
     - "goblin warlord"
     - "14 - 5 = 9"
     - "Asleep"
-
-- group: D
-  area: "3"
-  info:
-    - "3 goblins"
-    - "12 - 5 = 7"
-    - "Asleep"
-
