@@ -1,0 +1,22 @@
+- title: "A: Bedding"
+  desc: |-
+    Disgustingly dirty and smelly bedding.
+
+- title: "B: A bloody, beaten semiconscious man tied to a wooden frame"
+  desc: |-
+    * It takes 10 effort to untie him (max 2 people)
+    * He needs to be revived
+    * It takes a STR of 16 (combined or single) to carry him
+
+- title: "C: A leather bag"
+  desc: |-
+    * letter from the Black Spider
+    * Bugout stuff
+    * Potion of healing
+    * Alchemists orb of ???
+
+- title: "D: A large wooden chest"
+  desc: |-
+    * very heavy iron banded chest
+    * 2 people to carry, slow movement only
+    * **DC 15 Dex (Thieves tools) check 12 Effort** to open
