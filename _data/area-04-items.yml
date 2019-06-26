@@ -10,5 +10,14 @@
   desc: |-
     The river banks are steep flowstone. You are not visible when down in the river and the sound of the water covers the noise of movement. 
 
+    *  a goblin belt and sword sheath are caught on a rock upstream.
     * **DC 15 Str (Climb) check** to scale quietly, failure makes noise.
-    * **DC 15 Wis (Perception) check** to spot a goblin belt and sword sheath caught on a rock upstream.
+    * **DC 15 Wis (Perception) check** there are more things amongst the rocks upstream.
+
+- title: "D: In the river upstream"
+  desc: |-
+    The flow of the water is disturbed, there are things in the river.
+
+    *  a goblin belt and sword sheath are caught on a rock.
+    * **DC 15 Wis (Perception) check** a purse 1 gem 25gp 18sp
+    * **DC 18 Wis (Perception) check** a potion of healing.
