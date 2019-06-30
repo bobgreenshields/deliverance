@@ -1,13 +1,18 @@
 ---
 layout: area
-title: "Title"
-number: "x"
-description: "Description"
-area_items: area-0x-items
+title: "Gang living quarters"
+number: "8"
+description: "The cave houses the war gang"
+area_items: area-08-items
 player_images:
-  - giant-spider
+  - hill-goblin
+  - hill-goblin-archer
+  - hill-goblin-bomber
+  - exploding-toad
 leads_to:
-  - "z"
+  - "5"
+  - "9"
+  - "10"
 categories: area
 ---
 Boxed text

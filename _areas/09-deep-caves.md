@@ -1,13 +1,16 @@
 ---
 layout: area
-title: "Title"
-number: "x"
-description: "Description"
-area_items: area-0x-items
+title: "Deep caves"
+number: "9"
+description: "These caves lead off deeper under the mountain"
+area_items: area-09-items
 player_images:
-  - giant-spider
+  - carrion-crawler
+  - gelatinous-cube
 leads_to:
-  - "z"
+  - "5"
+  - "8"
+  - "10"
 categories: area
 ---
 Boxed text

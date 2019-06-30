@@ -1,13 +1,13 @@
 ---
 layout: area
-title: "Title"
-number: "x"
-description: "Description"
-area_items: area-0x-items
+title: "The alchemist cave"
+number: "7"
+description: "The goblin alchemist works here"
+area_items: area-07-items
 player_images:
-  - giant-spider
+  - alchemist
 leads_to:
-  - "z"
+  - "5"
 categories: area
 ---
 Boxed text

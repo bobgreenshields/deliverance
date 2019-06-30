@@ -1,13 +1,14 @@
 ---
 layout: area
-title: "Title"
-number: "x"
-description: "Description"
-area_items: area-0x-items
+title: "Captives & loot"
+number: "10"
+description: "Captives are imprisoned and loot is held"
+area_items: area-010-items
 player_images:
-  - giant-spider
+  - ghoul
 leads_to:
-  - "z"
+  - "9"
+  - "8"
 categories: area
 ---
 Boxed text

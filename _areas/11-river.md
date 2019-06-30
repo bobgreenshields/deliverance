@@ -1,13 +1,15 @@
 ---
 layout: area
-title: "Title"
-number: "x"
-description: "Description"
-area_items: area-0x-items
+title: "River"
+number: "11"
+description: "River"
+rea_items: area-11-items
 player_images:
   - giant-spider
 leads_to:
-  - "z"
+  - "4"
+  - "10"
+  - "12"
 categories: area
 ---
 Boxed text
