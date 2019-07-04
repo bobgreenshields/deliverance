@@ -1,11 +1,10 @@
 ---
 layout: area
-title: "Title"
+title: "Mausoleum beach"
 number: "12"
-description: "Description"
+description: "The river beach that leads to the mausoleum"
 area_items: area-12-items
 player_images:
-  - ghoul
 leads_to:
   - "11"
   - "13"

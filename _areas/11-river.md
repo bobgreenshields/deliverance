@@ -5,8 +5,7 @@ number: "11"
 description: "River"
 rea_items: area-11-items
 player_images:
-  - giant-spider
-leads_to:
+lreaeads_to:
   - "4"
   - "10"
   - "12"

@@ -9,7 +9,8 @@ leads_to:
   - "6"
   - "7"
   - "8"
+  - "9"
 categories: area
 ---
 
-The tunnel splits in four directions.
+The tunnel splits in four directions.  On a ledge behind some stalagmites is an opening off deeper into the mountain.  The deeper caves are not protected by the wards and are travelled by numerous subterranean monsters.
