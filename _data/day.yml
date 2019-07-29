@@ -33,3 +33,9 @@
     - "12-5"
     - "Chatting around fire, not alert"
 
+- group: F
+  area: "5"
+  info:
+    - "5 stirges"
+    - "???"
+    - ""

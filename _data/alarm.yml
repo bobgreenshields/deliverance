@@ -33,3 +33,9 @@
     - "12"
     - "Alert and ready for action"
 
+- group: F
+  area: "5"
+  info:
+    - "5 stirges"
+    - "???"
+    - ""

@@ -39,3 +39,10 @@
     - "goblin warlord"
     - "14 - 5 = 9"
     - "Asleep"
+
+- group: F
+  area: "5"
+  info:
+    - "5 stirges"
+    - "???"
+    - ""
