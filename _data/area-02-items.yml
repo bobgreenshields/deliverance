@@ -1,6 +1,6 @@
 - title: "A: Spider eggs"
   desc: |-
-    Several web covered orbs nestled in the alcove near the entrance at C.  The webs firmly fix them into place.
+    A small pile of web covered orbs nestled in the alcove near the entrance at A.  The webs firmly fix them into place.
 
     * **DC 18 Wis (Perception) check** to spot another nest of eggs at B.
     * **DC 15 Int (Investigation) check** the orbs are vibrating and undulating slightly, there's something in there and it might be trying to get out.
@@ -9,9 +9,15 @@
 - title: "B: Spider eggs"
   desc: Just like A
 
-- title: "C: Cocooned bodies"
+- title: "C: Spider eggs"
+  desc: Just like A
+
+- title: "D: Spider eggs"
+  desc: Just like A
+
+- title: "E: Cocooned bodies"
   desc: |-
-    Not visible from the entrance but there are 3 web cocoons suspended from the web at C.
+    Not visible from the entrance but there are 3 web cocoons suspended from the web at E.
 
     **DC 15 Int (Investigation) check** they contain 2 man sized and 1 smaller than man sized humanoids
 
@@ -39,8 +45,8 @@
 - title: "Ghoul"
   desc: |-
     * Wizened and dry, the skin of the ghoul looks older than either of the other two corpses.
-    * Around its neck is a pendant on a chain.  A truncated triangle made of silver.  When worm it produces light up to a 20 foot radius when the wearer wishes.  The wearer can choose to dim th e light.  Zalac knows its location at all times.  It unlocks the mausoleum door.
+    * Around its neck is a pendant on a chain.  A truncated triangle made of silver.  When worn it produces light up to a 20 foot radius when the wearer wishes.  The wearer can choose to dim the light.  Zalac knows its location at all times.  It unlocks the mausoleum door.
     **DC 15 Int (Investigation) check** the features of the ghoul are not human.  It was an elf.
 
-- title: "D: Blocked off opening"
+- title: "F: Blocked off opening"
   desc: The passage slopes down to a hole near the floor.  It is blocked by a wooden lattice that has been jammed in place **DC 15 Str check 10 Effort**.
