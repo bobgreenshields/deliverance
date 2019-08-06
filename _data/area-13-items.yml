@@ -1,46 +1,5 @@
-- title: "A: Spider eggs"
+- title: "A: Cocooned racoon"
   desc: |-
-    Several web covered orbs nestled in the alcove near the entrance at C.  The webs firmly fix them into place.
+    The drained and dessicated corpse of a racoon is cocooned in webs and hangs from the ceiling.
 
-    * **DC 18 Wis (Perception) check** to spot another nest of eggs at B.
-    * **DC 15 Int (Investigation) check** the orbs are vibrating and undulating slightly, there's something in there and it might be trying to get out.
-    * **DC 20 Int (Investigation) check** after a couple of rounds they are moving more than before.  The closer the proximity of bodies the more they vibrate.
-
-- title: "B: Spider eggs"
-  desc: Just like A
-
-- title: "C: Cocooned bodies"
-  desc: |-
-    Not visible from the entrance but there are 3 web cocoons suspended from the web at C.
-
-    **DC 15 Int (Investigation) check** they contain 2 man sized and 1 smaller than man sized humanoids
-
-    They can be opened using a sharp edge.
-
-    * Smaller - is a dessicated goblin.  Describe the dessicated skin and shrivelled flesh. See Loot.
-    * 1st man sized - is a dessicated human.  Flesh like the goblin but the clothes are falling apart as the corpse is moved.
-    * 2nd man sized - describe the first patch of dessicated dried skin just as with the other two.  This cocoon contains an initially inanimate ghoul.  It suddenly opens its eyes and viciously attacks. See Loot.
-
-    #### Loot
-
-    On the goblin corpse:
-
-    16 sp
-    2 gems 24 gp
-    Potion: Cure light wounds
-
-    On the human corpse:
-
-    25 sp
-    3 gp
-    Potion of fire breathing.
-    Masterworks grappling hook. Light and strong, gives advantage to climb rolls.  Dwarven steel and elven rope.
-
-- title: "Ghoul"
-  desc: |-
-    * Wizened and dry, the skin of the ghoul looks older than either of the other two corpses.
-    * Around its neck is a pendant on a chain.  A truncated triangle made of silver.  When worm it produces light up to a 20 foot radius when the wearer wishes.  The wearer can choose to dim th e light.  Zalac knows its location at all times.  It unlocks the mausoleum door.
-    **DC 15 Int (Investigation) check** the features of the ghoul are not human.  It was an elf.
-
-- title: "D: Blocked off opening"
-  desc: The passage slopes down to a hole near the floor.  It is blocked by a wooden lattice that has been jammed in place **DC 15 Str check 10 Effort**.
+    * **DC 18 Wis (Perception) check** another cocoon at B.
