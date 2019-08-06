@@ -1,19 +1,18 @@
-- title: "A: Spider eggs"
+- title: "Spider spawn"
+  desc: |-
+    At the start of each round after the timer goes off roll a d6 for each egg cache, on a 4-6 the cache spawns a large spider that takes an action at the end of this turn's initiative order.
+
+- title: "Destroy eggs"
+  desc: |-
+    Each egg cache can be detroyed by weapons (AC 8 HP 12) or magic.  If weapons are used the process will spawn a large spider each round as the eggs are burst, magic possibly not depending on the spell used.
+
+- title: "A, B, C, D: Spider eggs"
   desc: |-
     A small pile of web covered orbs nestled in the alcove near the entrance at A.  The webs firmly fix them into place.
 
     * **DC 18 Wis (Perception) check** to spot another nest of eggs at B.
     * **DC 15 Int (Investigation) check** the orbs are vibrating and undulating slightly, there's something in there and it might be trying to get out.
     * **DC 20 Int (Investigation) check** after a couple of rounds they are moving more than before.  The closer the proximity of bodies the more they vibrate.
-
-- title: "B: Spider eggs"
-  desc: Just like A
-
-- title: "C: Spider eggs"
-  desc: Just like A
-
-- title: "D: Spider eggs"
-  desc: Just like A
 
 - title: "E: Cocooned bodies"
   desc: |-

@@ -27,5 +27,3 @@ Even with the webs it's clear a tunnel exits the opposite side of the cave.
 On the round after the party enter the cave the giant spider on the roof will use it's first action (surprise round if not spotted) to fire a web to cover the entrance behind the party.
 
 Once the web action recharges it will move to the ceiling and target a party member at random.
-
-At the start of each round after the timer goes off roll a d6 for each egg cache, on a 4-6 the cache spawns a large spider that takes an action at the end of this turn's initiative order.
