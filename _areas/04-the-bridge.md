@@ -15,8 +15,9 @@ The river flows shin deep but swiftly through a 15ft. deep chasm.  A makeshift b
 # Loot notes
 
 * Alarm horn
-* Caltrops 2 bags
+* [Caltrops 2 bags](https://roll20.net/compendium/dnd5e/Caltrops#content)
 * Arrows of pushing and pulling
+* [Pearl of power](https://roll20.net/compendium/dnd5e/Items:Pearl%20of%20Power#content)
 
 * The river noise over the rocks will cover quiet movement.
 * Downstream the roar of water can be heard (underground waterfall).
