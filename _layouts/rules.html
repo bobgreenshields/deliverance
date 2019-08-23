@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post">
+
+  {%- if site.rules.size > 0 -%}
+
+      {%- for rule in site.rules -%}
+				<div>
+        <h3>
+          <a class="post-link" href="{{ rule.url | relative_url }}">
+						<!--{{ area.number | escape }} - {{ area.title | escape }} -->
+						{{ rule.title }}
+          </a>
+        </h3>
+        {%- if rule.summary -%}
+				<p>{{ rule.summary }}</p>
+        {%- endif -%}
+				</div>
+      {%- endfor -%}
+
+  {%- endif -%}
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: rule
 title: Cover
+summary: "Half cover +2 to AC and Dex saves. 3/4 +5 to AC and Dex saves."
 ---
 
 # [Cover](https://www.dandwiki.com/wiki/5e_SRD:Cover)

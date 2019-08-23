@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+		{%- if page.title-link -%}
+
+        <h3>
+          <a class="post-link" href="{{ page.title-link }}">
+						{{ page.title | escape }}
+          </a>
+        </h3>
+
+		{%- else -%}
+			<h3 class="post-title">{{ page.title | escape }}</h3>
+		{%- endif -%}
+  </header>
+
+	<p>{{ page.summary | escape }}</p>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
