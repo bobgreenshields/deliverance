@@ -29,6 +29,8 @@ collections:
     output: true
   rosters:
     output: true
+  rules:
+    output: true
 
 defaults:
   -
