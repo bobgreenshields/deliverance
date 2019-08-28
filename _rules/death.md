@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: rule
 title: Death saves and stabilisation
 ---
 

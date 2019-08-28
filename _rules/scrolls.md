@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: rule
 title: Using Scrolls
+summary: "If higher lvl - Int (Arcana) check DC 10 + spell lvl"
+title-link: "https://www.dndbeyond.com/magic-items/spell-scroll"
 ---
-
-# [Using scrolls](https://www.dndbeyond.com/magic-items/spell-scroll)
-
 * Must be on your spell list
 * Auto success if you can cast the lvl
 * If higher - Int Arcana check of DC 10 + spell lvl
