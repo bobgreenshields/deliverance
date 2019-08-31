@@ -1,10 +1,20 @@
 klarg:
-  pp: 13
+  pp: 9
   loot: "15sp and gems 15gp"
   desc: Klarg, the chief, a hill goblin warrior
 
+vrox:
+  pp: 10
+  loot: "see page"
+  desc: The alchemist
+
+philo:
+  pp: 9
+  loot: "5sp and a stick with bells on"
+  desc: "A smart, sneaky, backstabbing goblin"
+
 a:
-  pp: 13
+  pp: 9
   loot: "Jewelry 12gp"
   desc: 2 goblins, 2 goblin archers
 
@@ -24,11 +34,17 @@ d:
   desc: ghoul
 
 e:
-  pp: 13
+  pp: 9
   loot: none
   desc: 2 goblins, 2 goblin archers
 
 f:
-  pp: 13
+  pp: 9
   loot: none
   desc: 5 stirges
+
+g:
+  pp: 9
+  loot: 11sp
+  desc: 2 goblins
+

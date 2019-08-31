@@ -5,7 +5,7 @@ number: "4"
 description: "A bridge across the river"
 leads_to:
   - 3
-  - 5
+  - 14
 categories: area
 ---
 

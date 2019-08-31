@@ -4,7 +4,7 @@ title: "Crossroads"
 number: "5"
 description: "A tunnel crossroads"
 leads_to:
-  - "4"
+  - 14
   - "6"
   - "7"
   - "8"

@@ -19,9 +19,21 @@
   notes: "Chatting around fire, not alert"
 
 - mob: F
-  area: "5"
+  area: 14
   notes: ""
+
+- mob: G
+  area: "7"
+  notes: "Bored guards for Vrox"
 
 - mob: Klarg
   area: "6"
   notes: ""
+
+- mob: Vrox
+  area: 7
+  notes: ""
+
+- mob: Philo
+  area: 7
+  notes: "Vrox's assistant"
