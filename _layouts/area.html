@@ -73,9 +73,15 @@ layout: default
 						{%- if adv_area == page.number -%}
 						{%- assign mob_id = adversary.mob | downcase -%}
 						{%- assign mob = site.data.mobs[mob_id] -%}
+						{%- assign mob_name = mob_id | capitalize -%}
+						{%- assign mob_pages  = site.mobs | where: "mob", mob_id -%}
 						<tr>
-						<td>{{ adversary.mob }}</td>
-						<td>{{ mob.desc }}</td>
+						<td>{{ mob_name }}</td>
+						{%- if mob_pages.size > 0 -%}
+								<td><a href="{{ mob_pages[0].url | relative_url }}" title="Loot: {{ mob.loot }}">{{mob.desc}}</a></td>
+						{%- else -%}
+						<td><span title="Loot: {{ mob.loot }}">{{ mob.desc }}</span></td>
+						{%- endif -%}
 						<td>{{ mob.pp }}</td>
 						<td>{{ adversary.notes }}</td>
 					{%- endif -%}
