@@ -11,7 +11,8 @@ layout: default
 	<div>
 		<p>Leads to 
 		{%- for area_number in page.leads_to -%}
-			{%- assign areas  = site.areas | where: "number", area_number -%}
+			{%- assign area_no_str  = area_number | downcase -%}
+			{%- assign areas  = site.areas | where: "number", area_no_str -%}
 						{%- if areas.size > 0 -%}
 						{%- assign area = areas.first -%}
 								<a  href="{{ area.url | relative_url }}">
