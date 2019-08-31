@@ -3,7 +3,6 @@ layout: area
 title: "Spider tunnel"
 number: "13"
 description: "Webbed tunnels leading to the spiders' lair"
-area_items: area-13-items
 player_images:
   - giant-spider
 leads_to:

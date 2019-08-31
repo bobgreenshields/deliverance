@@ -1,10 +1,15 @@
-{% if page.area_items %}
-	<div id="accordion">
-		{% for area_item in site.data[page.area_items] %}
-		<h3>{{ area_item.title }}</h3>
-		<div>
-			<p>{{ area_item.desc | markdownify }}</p>
+{% for items_hashes in site.data.area_items %}
+	{% assign items_area = items_hashes[0] | plus:0 %}
+	{% assign page_no = page.number | plus:0 %}
+	{% if page_no == items_area %}
+		{% assign area_items = items_hashes[1] %}
+		<div id="accordion">
+			{% for area_item in area_items %}
+				<h3>{{ area_item.title }}</h3>
+				<div>
+					<p>{{ area_item.desc | markdownify }}</p>
+				</div>
+			{% endfor %}
 		</div>
-		{% endfor %}
-	</div>
-{% endif %}
+	{% endif %}
+{% endfor %}

@@ -3,7 +3,6 @@ layout: area
 title: "The gang boss cave"
 number: "6"
 description: "Caves inhabited by the boss of the warband"
-area_items: area-06-items
 player_images:
   - gang-boss
   - hill-goblin

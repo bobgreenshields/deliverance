@@ -3,10 +3,9 @@ layout: area
 title: "The bridge"
 number: "4"
 description: "A bridge across the river"
-area_items: area-04-items
 leads_to:
-  - "3"
-  - "5"
+  - 3
+  - 5
 categories: area
 ---
 

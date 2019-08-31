@@ -3,7 +3,6 @@ layout: area
 title: "Crossroads"
 number: "5"
 description: "A tunnel crossroads"
-area_items: area-05-items
 leads_to:
   - "4"
   - "6"

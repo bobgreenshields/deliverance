@@ -3,7 +3,6 @@ layout: area
 title: "Spider lair"
 number: "2"
 description: "A giant spider guards her offspring"
-area_items: area-02-items
 player_images:
   - giant-spider
   - spider-swarm
