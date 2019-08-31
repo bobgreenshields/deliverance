@@ -27,6 +27,8 @@ empty_array: []
 collections:
   areas:
     output: true
+  mobs:
+    output: true
   rosters:
     output: true
   rules:
