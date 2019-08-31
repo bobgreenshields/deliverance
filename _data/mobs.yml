@@ -1,0 +1,34 @@
+- id: klarg
+  pp: 13
+  loot: "15sp and gems 15gp"
+  desc: Klarg, the chief, a hill goblin warrior
+
+- id : A
+  pp: 13
+  loot: none
+  desc: 2 goblins, 2 goblin archers
+
+- id : B
+  pp: 13
+  loot: none
+  desc: Giant spider
+
+- id : C
+  pp: 13
+  loot: none
+  desc: large spider
+
+- id : D
+  pp: 13
+  loot: none
+  desc: ghoul
+
+- id : E
+  pp: 13
+  loot: none
+  desc: 2 goblins, 2 goblin archers
+
+- id : F
+  pp: 13
+  loot: none
+  desc: 5 stirges
