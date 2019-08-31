@@ -1,0 +1,34 @@
+---
+layout: default
+title: Mobs
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+	<table>
+		<tr>
+		<th>Mob</th>
+		<th>Description</th>
+		<th>Passive percep.</th>
+		<th>Loot</th>
+		</tr>
+		{%- for mob_hashes in site.data.mobs -%}
+		{%- assign mob_id = mob_hashes[0] | capitalize -%}
+		{%- assign mob = mob_hashes[1] -%}
+			<tr>
+				<td>{{ mob_id }}</td>
+				<td>{{ mob.desc }}</td>
+				<td>{{ mob.pp }}</td>
+				<td>{{ mob.loot }}</td>
+			</tr>
+		{%- endfor -%}
+	</table>
+
+
+
+  {{ content }}
+
+</div>
