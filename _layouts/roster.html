@@ -30,20 +30,23 @@ layout: default
 		{%- endfor -%}
 		</tr>
 		{%- for adversary in site.data[page.data_file] -%}
+		{% assign adv_area = adversary.area | downcase %}
 			<tr>
-				{%- if area_list contains adversary.area -%}
+				{%- if area_list contains adv_area -%}
 					{%- for area in site.areas -%}
-						{%- if area.number == adversary.area -%}
+						{%- if area.number == adv_area -%}
 							<td><a href="{{ area.url | relative_url }}" title="{{ area.title }}">{{adversary.area}}</a></td>
 						{%- endif -%}
 					{%- endfor -%}
 				{%- else -%}
-					<td>{{ adversary.area }}</td>
+					<td>{{ adv_area }}</td>
 				{%- endif -%}
-			<td>{{ adversary.group }}</td>
-				{%- for data_item in adversary.info -%}
-					<td>{{ data_item }}</td>
-				{%- endfor -%}
+			<td>{{ adversary.mob }}</td>
+				{%- assign mob_id = adversary.mob | downcase -%}
+				{%- assign mob = site.data.mobs[mob_id] -%}
+					<td>{{ mob.desc }}</td>
+					<td>{{ mob.pp }}</td>
+					<td>{{ adversary.notes }}</td>
 			</tr>
 		{%- endfor -%}
 	</table>

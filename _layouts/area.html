@@ -69,12 +69,15 @@ layout: default
 					{%- endfor -%}
 					</tr>
 					{%-for adversary in adversaries -%}
-						{%- if adversary.area == page.number -%}
+						{% assign adv_area = adversary.area | downcase %}
+						{%- if adv_area == page.number -%}
+						{%- assign mob_id = adversary.mob | downcase -%}
+						{%- assign mob = site.data.mobs[mob_id] -%}
 						<tr>
-						<td>{{ adversary.group }}</td>
-						{%-for data_item in adversary.info-%}
-						<td>{{ data_item }}</td>
-					{%- endfor -%}
+						<td>{{ adversary.mob }}</td>
+						<td>{{ mob.desc }}</td>
+						<td>{{ mob.pp }}</td>
+						<td>{{ adversary.notes }}</td>
 					{%- endif -%}
 					</tr>
 				{%- endfor -%}

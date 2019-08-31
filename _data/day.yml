@@ -1,41 +1,27 @@
-- group: A
-  area: "1"
-  info:
-    - "2 goblins, 2 goblin archer"
-    - "12-5"
-    - "chatting"
+- mob: A
+  area: 1
+  notes: "chatting"
 
-- group: B
+- mob: B
   area: "2"
-  info:
-    - "giant spider"
-    - "14"
-    - "Hiding on the ceiling"
+  notes: "Hiding on the ceiling"
 
-- group: C
+- mob: C
   area: "2"
-  info:
-    - "large spider"
-    - "12"
-    - "Still inside its egg"
+  notes: "Still inside its egg"
 
-- group: D
+- mob: D
   area: "2"
-  info:
-    - "ghoul"
-    - 10
-    - Cocooned at C
+  notes: Cocooned at C
 
-- group: E
+- mob: E
   area: "4"
-  info:
-    - "2 goblins, 2 goblin archers"
-    - "12-5"
-    - "Chatting around fire, not alert"
+  notes: "Chatting around fire, not alert"
 
-- group: F
+- mob: F
   area: "5"
-  info:
-    - "5 stirges"
-    - "???"
-    - ""
+  notes: ""
+
+- mob: Klarg
+  area: "6"
+  notes: ""
