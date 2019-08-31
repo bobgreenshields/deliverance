@@ -5,7 +5,7 @@ klarg:
 
 a:
   pp: 13
-  loot: none
+  loot: "Jewelry 12gp"
   desc: 2 goblins, 2 goblin archers
 
 b:
