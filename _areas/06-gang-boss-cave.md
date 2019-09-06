@@ -13,4 +13,8 @@ categories: area
 
 It's immediately apparent that this cave is occupied and not only by the poor wretch who is tied to a wooden frame and obviously being beaten and tortured.
 
+A goblin and archer at E alternately sitting on the box or striking/stabbing Galmraes.
+
 The dwarf, Glamraes Goldenbrand, is the caravan master that the party has been tasked to find.
+
+**Timer** until mob J arrives - if Klarg is absent he comes with them.

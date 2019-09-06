@@ -1,22 +1,36 @@
 - title: "A: Bedding"
   desc: |-
-    Disgustingly dirty and smelly bedding.
+    Disgustingly dirty and smelly bedding.  Perc DC 11 the boss's bugout bag - brown leather pack.
 
-- title: "B: A bloody, beaten semi-conscious dwarf tied to a wooden frame"
+    * 2 x potion healing
+    * 1 x bomb
+    * blanket
+    * dried meat rations (human?)
+
+- title: "B: A large wooden chest"
+  desc: |-
+    * very heavy iron banded chest
+    * 2 people to carry, slow movement only
+    * **DC 15 Dex (Thieves tools) check 12 Effort** to open
+
+- title: "C: Small crate covered in papers"
+  desc: |-
+    In amongst letters and manifests of goods are Invest DC 12 Eff 1d6 DC 16 Eff 1d8
+    For each 4 effort find
+
+    1. The Bishop's message
+    2. The letter from the Black Spider
+    3. Cleric scroll of 
+    4. Sorceror scroll of
+    5. Wizard scroll of
+    6. Map to rocky spire
+
+- title: "D: A bloody, beaten semi-conscious dwarf tied to a wooden frame"
   desc: |-
     * It takes 10 effort to untie him (max 2 people)
     * He needs to be revived
     * It takes a STR of 16 (combined or single) to carry him
 
-- title: "C: A leather bag"
+- title: "E: 2 Goblins and a box of shredded clothes"
   desc: |-
-    * letter from the Black Spider
-    * Bugout stuff
-    * Potion of healing
-    * Alchemists orb of ???
 
-- title: "D: A large wooden chest"
-  desc: |-
-    * very heavy iron banded chest
-    * 2 people to carry, slow movement only
-    * **DC 15 Dex (Thieves tools) check 12 Effort** to open
