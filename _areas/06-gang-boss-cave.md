@@ -17,4 +17,4 @@ A goblin and archer at E alternately sitting on the box or striking/stabbing Gal
 
 The dwarf, Glamraes Goldenbrand, is the caravan master that the party has been tasked to find.
 
-**Timer** until mob J arrives - if Klarg is absent he comes with them.
+**Timer** until mob J (2G, 1A) arrives - if Klarg is absent he comes with them. 
