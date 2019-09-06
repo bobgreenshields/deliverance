@@ -8,15 +8,20 @@ vrox:
   loot: "see page"
   desc: The alchemist
 
-philo:
+gribble:
   pp: 9
   loot: "5sp and a stick with bells on"
   desc: "A smart, sneaky, backstabbing goblin"
 
+draenog:
+  pp: 9
+  loot: "5sp and a stick with bells on"
+  desc: "Bugbear, 3 goblins, 1 archer"
+
 a:
   pp: 9
   loot: "Jewelry 12gp"
-  desc: 2 goblins, 2 goblin archers
+  desc: 3 goblins, 2 archers, 1 bomber
 
 b:
   pp: 13
@@ -47,4 +52,29 @@ g:
   pp: 9
   loot: 11sp
   desc: 2 goblins
+
+h:
+  pp: 9
+  loot: 11sp
+  desc: 2 goblins, 1 bomber
+
+i:
+  pp: 9
+  loot: 
+  desc: 1 goblins, 1 archer
+
+j:
+  pp: 9
+  loot: 
+  desc: "boss honourguard - 2 goblins, 1 archer"
+
+k:
+  pp: 9
+  loot: 
+  desc: 3 goblins, 1 archer, 1 bomber
+
+l:
+  pp: 9
+  loot: 
+  desc: 2 goblins, 2 archers, 1 bomber
 

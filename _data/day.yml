@@ -26,6 +26,26 @@
   area: "7"
   notes: "Bored guards for Vrox"
 
+- mob: H
+  area: "10"
+  notes: "Guarding captives"
+
+- mob: I
+  area: "6"
+  notes: "Guarding boss cave and tortured dwarf"
+
+- mob: J
+  area: "8"
+  notes: ""
+
+- mob: K
+  area: "8"
+  notes: ""
+
+- mob: L
+  area: "8"
+  notes: ""
+
 - mob: Klarg
   area: "6"
   notes: ""
@@ -34,6 +54,6 @@
   area: 7
   notes: ""
 
-- mob: Philo
+- mob: Gribble
   area: 7
   notes: "Vrox's assistant"
