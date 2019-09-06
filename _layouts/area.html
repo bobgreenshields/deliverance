@@ -34,10 +34,19 @@ layout: default
 
 
 	{%- assign area_maps  = site.static_files | where: "area_map", true | where: "basename", page.number -%}
+	{%- assign large_maps  = site.static_files | where: "large_map", true | where: "basename", page.number -%}
 	{%- if area_maps.size > 0 -%}
-	<div>
-			<img src={{ area_maps.first.path | relative_url }} class="area_map" alt=""/>
-	</div>
+		{%- if large_maps.size > 0 -%}
+			<div>
+					<a href="{{ large_maps.first.path | relative_url }}">
+						<img src={{ area_maps.first.path | relative_url }} class="area_map" alt=""/>
+					</a>
+			</div>
+		{%- else -%}
+			<div>
+					<img src={{ area_maps.first.path | relative_url }} class="area_map" alt=""/>
+			</div>
+		{%- endif -%}
 	{%- endif -%}
 <div>
     {{ content }}

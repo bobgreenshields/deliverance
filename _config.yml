@@ -42,6 +42,11 @@ defaults:
       area_map: true
   -
     scope:
+      path: "assets/large_maps"
+    values:
+      large_map: true
+  -
+    scope:
       path: "assets/player_images"
     values:
       player_image: true
