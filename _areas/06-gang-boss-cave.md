@@ -4,7 +4,7 @@ title: "The gang boss cave"
 number: "6"
 description: "Caves inhabited by the boss of the warband"
 player_images:
-  - gang-boss
+  - goblin-warlord
   - hill-goblin
 leads_to:
   - "5"
