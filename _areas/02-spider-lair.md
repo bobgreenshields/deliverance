@@ -5,7 +5,6 @@ number: "2"
 description: "A giant spider guards her offspring"
 player_images:
   - giant-spider
-  - spider-swarm
   - ghoul
 leads_to:
   - "3"
