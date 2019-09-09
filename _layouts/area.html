@@ -33,11 +33,11 @@ layout: default
 		<div class="gridwrapper">
 
 
-	{%- assign large_maps  = site.static_files | where: "large_map", true | where: "basename", page.number -%}
-		{%- if large_maps.size > 0 -%}
+	{%- assign area_maps  = site.static_files | where: "area_map", true | where: "basename", page.number -%}
+		{%- if area_maps.size > 0 -%}
 			<div>
-					<a href="{{ large_maps.first.path | relative_url }}">
-						<img src={{ large_maps.first.path | relative_url }} class="map-thumb" alt=""/>
+					<a href="{{ area_maps.first.path | relative_url }}">
+						<img src={{ area_maps.first.path | relative_url }} class="map-thumb" alt=""/>
 					</a>
 			</div>
 		{%- endif -%}
