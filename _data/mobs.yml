@@ -78,3 +78,8 @@ l:
   loot: 
   desc: 2 goblins, 2 archers, 1 bomber
 
+m:
+  pp: 13
+  loot: none
+  desc: ghoul
+

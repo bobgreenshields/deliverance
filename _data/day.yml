@@ -46,6 +46,10 @@
   area: "8"
   notes: ""
 
+- mob: M
+  area: "16"
+  notes: "Hidden behind a statue"
+
 - mob: Klarg
   area: "6"
   notes: ""
