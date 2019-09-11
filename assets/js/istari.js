@@ -11,3 +11,7 @@ $( function() {
 		collapsible: true
 	});
 } );
+
+$( function() {
+	$( document ).tooltip();
+} );
