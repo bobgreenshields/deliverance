@@ -5,7 +5,7 @@ number: "11"
 description: "River"
 rea_items: area-11-items
 player_images:
-lreaeads_to:
+leads_to:
   - "4"
   - "10"
   - "12"

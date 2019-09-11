@@ -7,7 +7,7 @@ area_items: area-12-items
 player_images:
 leads_to:
   - "11"
-  - "13"
+  - "15"
 categories: area
 ---
 Boxed text
