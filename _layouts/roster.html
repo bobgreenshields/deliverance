@@ -16,9 +16,10 @@ layout: default
 		{%- endif -%}
 		
 		{%- assign area_list = site.empty_array -%}
-
+<!-- create an array containing all of the area numbers as integers -->
 		{%- for area in site.areas -%}
-			{%- assign area_list = area_list | push: area.number -%}
+			{%- assign area_number = area.number | plus: 0 -%}
+			{%- assign area_list = area_list | push: area_number -%}
 		{%- endfor -%}
 
 	<table>
@@ -29,12 +30,26 @@ layout: default
 		<th>PP</th>
 		<th>Notes</th>
 		</tr>
+		<!-- create a sorted array of all the areas in the roster as integers -->
+		{%- assign sorted_areas = site.empty_array -%}
 		{%- for adversary in site.data[page.data_file] -%}
-		{% assign adv_area = adversary.area | downcase %}
+			{% assign adv_area = adversary.area | plus: 0 %}
+			{%- assign sorted_areas = sorted_areas | push: adv_area -%}
+		{%- endfor -%}
+		{%- assign sorted_areas = sorted_areas | uniq | sort -%}
+
+<!-- iterate through the sorted array of areas in the roster -->
+<!-- making all area comparisons as integers -->
+		{%- for area_index in sorted_areas -%}
+
+		{%- for adversary in site.data[page.data_file] -%}
+		{% assign adv_area = adversary.area | plus: 0 %}
+		{%- if area_index == adv_area -%}
 			<tr>
 				{%- if area_list contains adv_area -%}
 					{%- for area in site.areas -%}
-						{%- if area.number == adv_area -%}
+						{%- assign area_number = area.number | plus: 0 -%}
+						{%- if area_number == adv_area -%}
 							<td><a href="{{ area.url | relative_url }}" title="{{ area.title }}">{{adversary.area}}</a></td>
 						{%- endif -%}
 					{%- endfor -%}
@@ -54,6 +69,9 @@ layout: default
 					<td>{{ mob.pp }}</td>
 					<td>{{ adversary.notes }}</td>
 			</tr>
+
+		{%- endif -%}
+		{%- endfor -%}
 		{%- endfor -%}
 	</table>
 
