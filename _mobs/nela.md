@@ -13,6 +13,7 @@ She is hobbled by leather straps and carries buckets full of water with a wooden
 * She's only done water for 2 days
 * Ussoll did the water but she disappeared - she doesn't think she escaped
 * She's really scared; Ussoll disappearing, the goblins and the sickness
+* She is too scared to join the party or run away
 * Humans and goblins are falling sick
 * One human has already died in a violent gruesome death
 * He appeared to die and then woke up and attacked another
