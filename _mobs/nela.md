@@ -12,6 +12,8 @@ She is hobbled by leather straps and carries buckets full of water with a wooden
 * She knows the layout of the caves as far as the palisade
 * She's only done water for 2 days
 * Ussoll did the water but she disappeared - she doesn't think she escaped
+* There is something else in here.  She's seen it in the shadows
+* Seen it both in the captives cave and by the bridge
 * She's really scared; Ussoll disappearing, the goblins and the sickness
 * She is too scared to join the party or run away
 * Humans and goblins are falling sick
@@ -20,3 +22,4 @@ She is hobbled by leather straps and carries buckets full of water with a wooden
 * Another is sick and some captives want to kill her
 * Klarg looks like he has the sickness
 * Draenog, the bugbear, argues with Klarg
+* Draenog patrols the caves and passages every couple of hours

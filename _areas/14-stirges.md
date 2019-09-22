@@ -5,6 +5,7 @@ number: "14"
 description: "The cave where the stirges live"
 player_images:
   - stirge
+  - nela
 leads_to:
   - 4
   - 5
