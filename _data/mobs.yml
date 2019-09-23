@@ -15,7 +15,7 @@ frik:
 
 draenog:
   pp: 9
-  loot: "5sp and a stick with bells on"
+  loot: "15sp and gems 25gp"
   desc: "Bugbear, 3 goblins, 1 archer"
 
 nela:
@@ -45,7 +45,7 @@ d:
 
 e:
   pp: 9
-  loot: none
+  loot: "11sp"
   desc: 2 goblins, 2 goblin archers
 
 f:
@@ -55,7 +55,7 @@ f:
 
 g:
   pp: 9
-  loot: 11sp
+  loot: 8sp
   desc: 2 goblins
 
 h:
@@ -65,22 +65,22 @@ h:
 
 i:
   pp: 9
-  loot: 
+  loot: "4sp small animal skull stuffed with twigs"
   desc: 1 goblins, 1 archer
 
 j:
   pp: 9
-  loot: 
+  loot: "9sp and gems 5gp"
   desc: "boss honourguard - 2 goblins, 1 archer"
 
 k:
   pp: 9
-  loot: 
+  loot: "6sp and 3 bombs"
   desc: 3 goblins, 1 archer, 1 bomber
 
 l:
   pp: 9
-  loot: 
+  loot: "8sp and 2 bombs"
   desc: 2 goblins, 2 archers, 1 bomber
 
 m:

@@ -11,6 +11,7 @@ She is hobbled by leather straps and carries buckets full of water with a wooden
 
 * She knows the layout of the caves as far as the palisade
 * She's only done water for 2 days
+* She fills her bucket from the river in the captives cave and takes to the goblins
 * Ussoll did the water but she disappeared - she doesn't think she escaped
 * There is something else in here.  She's seen it in the shadows
 * Seen it both in the captives cave and by the bridge
