@@ -1,10 +1,10 @@
 - mob: A
   area: 1
-  notes: "chatting"
+  notes: "alert and ready to use horn"
 
 - mob: O
-  area: 1
-  notes: "chatting"
+  area: "4"
+  notes: "Reverse barricade and defend"
 
 - mob: B
   area: "2"
@@ -20,27 +20,27 @@
 
 - mob: E
   area: "4"
-  notes: "Chatting around fire, not alert"
+  notes: "Dead - bodies missing"
 
 - mob: F
   area: 14
   notes: ""
 
 - mob: G
-  area: "7"
-  notes: "Bored guards for Vrox"
+  area: "8"
+  notes: "Vrox guards attempting to get to cavern"
 
 - mob: H
   area: "10"
   notes: "Guarding captives"
 
 - mob: N
-  area: "10"
-  notes: "Guarding captives"
+  area: "8"
+  notes: "defending cavern"
 
 - mob: I
   area: "6"
-  notes: "Guarding boss cave and tortured dwarf"
+  notes: "Dead"
 
 - mob: J
   area: "8"
@@ -55,29 +55,29 @@
   notes: ""
 
 - mob: P
-  area: "8"
-  notes: ""
+  area: "5"
+  notes: "Dead"
 
 - mob: M
   area: "16"
   notes: "Hidden behind a statue"
 
 - mob: Klarg
-  area: "6"
-  notes: ""
+  area: "5"
+  notes: "Dead"
 
 - mob: Draenog
-  area: "8"
-  notes: ""
+  area: "5"
+  notes: "Dead"
 
 - mob: Vrox
-  area: 7
-  notes: ""
+  area: 8
+  notes: "Attempting to get to cavern"
 
 - mob: Frik
-  area: 7
-  notes: "Vrox's assistant"
+  area: 4
+  notes: "Attempting to get to pallisade"
 
 - mob: Nela
-  area: 14
-  notes: "Nela Hillwater carrying a bucket"
+  area: 10
+  notes: "Imprisoned again"

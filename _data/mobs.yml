@@ -25,8 +25,13 @@ nela:
 
 a:
   pp: 9
-  loot: "Jewelry 12gp"
-  desc: 3 goblins, 2 archers, 1 bomber
+  loot: "Jewelry 2gp"
+  desc: 1 goblin
+
+o:
+  pp: 9
+  loot: "Jewelry 10gp"
+  desc: 2 goblins, 2 archers, 1 bomber
 
 b:
   pp: 13
@@ -60,8 +65,13 @@ g:
 
 h:
   pp: 9
-  loot: 11sp
-  desc: 2 goblins, 1 bomber
+  loot: 4sp
+  desc: 1 goblin
+
+n:
+  pp: 9
+  loot: 7sp
+  desc: 1 goblin, 1 bomber
 
 i:
   pp: 9
@@ -80,8 +90,13 @@ k:
 
 l:
   pp: 9
-  loot: "8sp and 2 bombs"
-  desc: 2 goblins, 2 archers, 1 bomber
+  loot: "2sp"
+  desc: 2 goblins
+
+p:
+  pp: 9
+  loot: "6sp and 2 bombs"
+  desc: 2 archers, 1 bomber
 
 m:
   pp: 13
